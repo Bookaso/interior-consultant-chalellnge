@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+:root{
+    --bg:#181719;
+    --font-color:#FFFFFF;
+    --position-color:#828282;
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--bg);
+    color: var(--font-color);
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 19px 12px;
+}
+nav .logo{
+    font-family: 'Crimson Pro';
+    font-weight: 200;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #fff;
+}
+.burger-menu{
+    width: 28.5px;
+    cursor: pointer;
+    position: relative;
+}
+.burger-menu div:nth-child(1){
+    transform-origin: 0;
+}
+.burger-menu:hover div:nth-child(1){
+    transform:rotateZ(45deg);
+}
+.burger-menu:hover div:nth-child(2){
+    transform:rotateZ(-45deg);
+}
+.burger-menu:hover div:nth-child(3){
+    transform:rotateZ(45deg);
+}
+.burger-menu div{
+    height: 3px;
+    background: var(--font-color);
+    margin: 5px 0;
+    border-radius: 50px;
+}
+
+.content h2{
+    font-family:'Lora';
+    font-size: 36px;
+    font-weight: 500;
+    margin: 19px 12px;
+}
+.content p{
+    font-family:'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 12px;
+    line-height: 17px;
+    width: 67%;
+}
+.content h4{
+    font-family:'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    margin: 25px 12px;
+}
+.content h4::after{
+    content:'➝';
+    margin:0 15px;
+}
+.container{
+    margin: 0 12px;
+}
+.container img{
+    max-width: 100%;
+    height: auto;
+}
+.info{
+    background: var(--bg);
+    width: 300px;
+    height: 138px;
+    margin: 0 auto;
+    padding: 8px 19px;
+    transform: translateY(-60px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info .user{
+    width: 100px;
+    height: 50px;
+    display: flex;
+}
+.info .user img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    margin: 5px;
+}
+.user-info{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.info .user .user-info h2{
+    font-family:'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    width: 140px;
+}
+.info .user .user-info span{
+    font-family:'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    color:var(--position-color);
+}
+.info .post h2{
+    font-family:'Lora';
+    font-size: 18px;
+    font-weight: 700;
+    width: 210px;
+    margin: 8px 0;
+}
+footer{
+    font-family:'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    height: 41px;
+}
