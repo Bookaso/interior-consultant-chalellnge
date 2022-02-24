@@ -36,7 +36,7 @@
 
 ## Overview
 
-[screenshot](./Web capture.jpeg)
+![screenshot](./Web-capture.png)
 
 ### Built With
 
@@ -45,5 +45,5 @@
 - HTML, CSS and JAVASCRIPT
 ## Contact
 
-- Website [your-website.com](https://festive-chandrasekhar-d6affc.netlify.app/)
-- GitHub [@your-username](https://github.com/Bookaso/interior-consultant-chalellnge.git)
+- Website [My-site](https://festive-chandrasekhar-d6affc.netlify.app/)
+- GitHub [@Bookaso](https://github.com/Bookaso/interior-consultant-chalellnge.git)
