@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://festive-chandrasekhar-d6affc.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Bookaso/interior-consultant-chalellnge.git">
       Solution
     </a>
     <span> | </span>
@@ -27,7 +27,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -45,5 +45,5 @@
 - HTML, CSS and JAVASCRIPT
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website [your-website.com](https://festive-chandrasekhar-d6affc.netlify.app/)
+- GitHub [@your-username](https://github.com/Bookaso/interior-consultant-chalellnge.git)
